@@ -1,0 +1,11 @@
+const container = document.querySelector(".container");
+const fileInput = document.getElementById("fileInput");
+const chooseImgBtn = document.getElementById("imageBtn");
+const showImg = document.querySelector("#image_view img");
+const filterName = document.querySelector(".filter-name .name");
+const filterBtn = document.querySelectorAll(".filter button");
+const sliderValue = document.querySelector(".filter-name .value");
+const rotateBtn = document.querySelectorAll(".rotateFlip button");
+const sliderRange = document.querySelector(".slider input");
+const resetFilters = document.querySelector(".resetFilters");
+const saveImage = document.querySelector(".save-img")
